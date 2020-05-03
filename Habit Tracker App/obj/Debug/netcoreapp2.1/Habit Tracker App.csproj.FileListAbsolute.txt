@@ -1,0 +1,2 @@
+C:\Users\Danica\source\repos\Habit Tracker App\Habit Tracker App\obj\Debug\netcoreapp2.1\Habit Tracker App.AssemblyInfoInputs.cache
+C:\Users\Danica\source\repos\Habit Tracker App\Habit Tracker App\obj\Debug\netcoreapp2.1\Habit Tracker App.AssemblyInfo.cs
