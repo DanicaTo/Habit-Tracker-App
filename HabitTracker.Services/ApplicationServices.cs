@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using HabitTracker.Domains;
+
 namespace HabitTracker.Services
 {
     public class AplicationServices
     {
        
-        List<User> applicationUsers = new List<User>() { new User("steve1", "1234", "Steven", "Madden", DateTime.Now) };
+        List<User> applicationUsers = new List<User>()
+        {
+            new User("steveBest", "1234567", "Steven", "Madden", DateTime.Now)
+        };
 
         Habit[] usersHabits = new Habit[] { new Habit("creativity", Domains.Enums.HabitGroup.HomeAndPersonal) };
-        User steve1 = new User("steve1", "1234", "Steven", "Madden", DateTime.Now);
+        
 
         public bool LogIn(User user)
         {

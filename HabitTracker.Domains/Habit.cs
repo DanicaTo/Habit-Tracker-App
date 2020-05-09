@@ -15,6 +15,6 @@ namespace HabitTracker.Domains
         public string HabitTitle { get; set; }
         public Enums.HabitGroup HabitGroup { get; set; }
         public User User { get; set; }
-        Habit badHabit = new Habit("lazyness", Enums.HabitGroup.HomeAndPersonal);
+       // Habit badHabit = new Habit("lazyness", Enums.HabitGroup.HomeAndPersonal);
     }
 }

@@ -14,9 +14,8 @@ namespace HabitTracker.Domains
             UsersHabits = new Habit[] { };
         }
         public User()
-        {
+        { }
 
-        }
         public string UserName { get; set; }
         public string Password { get; set; }
         public string FirstName { get; set; }
@@ -24,7 +23,7 @@ namespace HabitTracker.Domains
         public DateTime DateOfBirth { get; set; }
         public Habit[] UsersHabits { get; set; }
 
-
+    
 
 
 
